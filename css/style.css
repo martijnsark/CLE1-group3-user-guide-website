@@ -148,7 +148,7 @@ main {
 }
 
 .about-container {
-    max-width: 800px;
+    max-width: 60vw;
     margin-left: 5%; 
     padding: 20px 50px 20px 10px; 
     position: relative;
@@ -166,8 +166,9 @@ main {
 }
 
 .topic img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;           /* Force images to take 100% of container width */
+    height: 600px;         /* Set a fixed height for consistency */
+    object-fit: cover;     /* Ensures the image is resized while preserving the aspect ratio */
     border-radius: 8px;
 }
 
