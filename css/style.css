@@ -31,17 +31,11 @@ header {
     margin-top: 40px;
 }
 
-/* html {
-    height: 100%;
-    width: 100%;
-} */
 
 body {
     background-color: rgb(102, 230, 249);
     padding: 0px;
     margin: 0px;
-    /* height: 100%;
-    width: 100%; */
 }
 
 main {
@@ -58,12 +52,6 @@ nav {
     align-items: center; 
     padding: 10px; 
 }
-
-/* nav {
-    background-image: url(../images/header-image.jpg);
-    background-size: cover;
-    background-position: center;
-} */
 
 a {
     color: black;
