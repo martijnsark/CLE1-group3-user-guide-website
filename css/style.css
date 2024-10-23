@@ -30,6 +30,13 @@ header {
     margin-top: 40px;
 }
 
+.header {
+    height: 100px;
+    background-image: url(images/header-image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 body {
     background-color: darkgray;
     padding: 0px;
@@ -74,9 +81,10 @@ header {
 }
 
 body {
-    background-color: darkgray;
+    background-color: rgb(203, 255, 179);
     padding: 0px;
     margin: 0px;
+    background-image: url(images/header-image.jpg);
 }
 
 main {
