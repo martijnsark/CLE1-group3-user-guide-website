@@ -37,7 +37,7 @@ header {
 } */
 
 body {
-    background-color: rgb(13, 116, 51);
+    background-color: rgb(102, 230, 249);
     padding: 0px;
     margin: 0px;
     /* height: 100%;
@@ -108,6 +108,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; 
+    max-width: 100%;
     width: 100vw; 
     height: 100vh;
     gap: 20px; 
