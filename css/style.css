@@ -1,5 +1,5 @@
 nav {
-    background-color: rgba(21, 47, 199, 0.2);
+    background-color: rgba(22, 151, 46, 0.2);
     position: relative;
     display: flex;
     flex-direction: row; 
@@ -31,10 +31,17 @@ header {
     margin-top: 40px;
 }
 
+/* html {
+    height: 100%;
+    width: 100%;
+} */
+
 body {
-    background-color: darkgray;
+    background-color: rgb(13, 116, 51);
     padding: 0px;
     margin: 0px;
+    /* height: 100%;
+    width: 100%; */
 }
 
 main {
@@ -52,11 +59,11 @@ nav {
     padding: 10px; 
 }
 
-nav {
+/* nav {
     background-image: url(../images/header-image.jpg);
     background-size: cover;
     background-position: center;
-}
+} */
 
 a {
     color: black;
@@ -80,23 +87,20 @@ header {
     margin-top: 40px;
 }
 
-body {
-    background-color: rgb(203, 255, 179);
-    padding: 0px;
-    margin: 0px;
-}
-
-body {
-    background-image: url(../images/background-image.png);
+main {
+    background-image: url(../images/background-image3.jpg);
 }
 
 main {
     padding: 0px;
     margin: 0px;
+    height: 100%;
+    width: 100%;
 }
 
 .cards-headline {
     text-align: center;
+    margin: 0;
 }
 
 .cards-container {
@@ -104,9 +108,18 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; 
-    width: 100%; 
+    width: 100vw; 
+    height: 100vh;
     gap: 20px; 
-    margin-bottom: 55vh;
+    flex-direction: column;
+    /* margin-bottom: 55vh; */
+}
+
+.card-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .card {
